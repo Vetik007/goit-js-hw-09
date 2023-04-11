@@ -9,6 +9,7 @@ const startBtn = document.querySelector('[data-start]');
 
 // console.log(startBtn);
 
+let randomColorId = null;
 const stopBtn = document.querySelector('[data-stop]');
 
 startBtn.addEventListener('click', colorStartBt);
